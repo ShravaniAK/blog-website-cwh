@@ -1,0 +1,22 @@
+.contact-content{
+    /* background-color: rgb(172, 172, 214); */
+    /* height:355px; */
+    height: 100vh;
+    margin-top: 32px;
+    display: block;
+    position: relative;
+    
+}
+.contact-content::after{
+    content: "";
+    background-image: url('../img/cover.jpg');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.18;
+    z-index: -1;
+
+}
+
+

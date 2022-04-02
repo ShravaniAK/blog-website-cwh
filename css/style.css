@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+    /* background-color: red; */
+    /* height:34px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    font-size: 5rem;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    /* margin: 0px 77px; */
+    margin:1rem;
+    font-size: 3rem;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0px 14px;
+    transition:all 0.3s ease-in-out ;
+}
+.nav-left ul li:hover{
+    font-weight: bold;
+}
+.nav-left ul li a{
+    text-decoration: none;
+}
+.content{
+    /* background-color: rgb(172, 172, 214); */
+    height:100%;
+    margin-top: 32px;
+    display: flex;
+    position: relative;
+    
+}
+.content::after{
+    content: "";
+    background-image: url('../img/cover.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.18;
+
+}
+.content-left{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 50px;
+    z-index: -1;
+
+}
+.content-right{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-right img{
+    height: 315px;
+    border: 2px solid black;
+    border-radius: 200px;
+    
+}
+.home-articles{
+    /* background-color: red; */
+    padding: 32px;
+    position: relative;
+    /* height: 434px; */
+}
+.home-article{
+    display: flex;
+    padding: 32px;
+}
+.home-article-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 32px;
+}
+.home-article-content a{
+    text-decoration: none;
+    
+}
+.home-article img{
+    height: 300px;
+}
+.footer{
+    background-color: rgb(26, 3, 48);
+    height:74px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.year-box{
+    position: absolute ;
+    right: 419px;
+    top: 100px;
+    width: 64px;
+    height: 244px;
+    font-size: 22px;
+}
+@media(max-width:480px){
+    .nav-left ul{
+        font-size: 1.5rem;
+    }
+    .year-box{
+        /* bottom:1rem */
+        top: 50px;
+    }
+}

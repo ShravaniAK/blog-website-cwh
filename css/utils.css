@@ -1,0 +1,46 @@
+:root{
+--main-bg-color:purple;
+}
+
+.max-width-1{
+    width:80vw;
+}
+.max-width-2{
+    width:60vw;
+}
+.m-auto{
+    /* margin:auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid  black;
+    border-radius: 12px;
+    margin:0px 14px;
+}
+.form-box input,textarea{
+    width: 52vw;
+    margin: 10px 6px;
+    padding: 7px;
+    
+}
+.btn{
+    padding:0px 14px;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0px 14px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
